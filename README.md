@@ -1,4 +1,4 @@
-# Boot2Root CTF: SickOs 1.1
+# Boot2Root CTF: *SickOs 1.1*
 
 *Note: This box was completed long ago and I am going off of the VMware snapshot I saved after completion, some visuals will be missing and explained instead.*
 
